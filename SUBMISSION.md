@@ -51,9 +51,8 @@ Published from the entrant's account on 2026-09-19:
 
 The post includes the reviewed evidence dashboard image, tags `@openservai`, and links to the public repository through <https://x.gd/pondagent>.
 
-## Remaining account-bound steps
+## Submission status
 
-1. Paste the post and repository links into the official submission form before **2026-09-28 00:00 UTC**.
-2. Record a short demo video if the organizer requests one.
+Submitted through the official SERV Hackathon #1 Typeform on **2026-09-19**. The confirmation states that results will be announced by email and on OpenServ X by **2026-10-05**.
 
-The SERV Reasoning account, dedicated project key, required organization data collection setting, public repository, and public X post are complete. The hackathon page's Typeform currently reports that it is closed despite the stated deadline; organizer clarification or a corrected form is still required.
+The SERV Reasoning account, dedicated project key, required organization data collection setting, public repository, public X post, and submission form are complete. The optional logo was skipped and marketing consent was declined.
