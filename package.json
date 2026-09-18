@@ -1,0 +1,20 @@
+{
+  "name": "pond-agent-openserv",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "OpenServ agent that finds and rejects cross-chain arbitrage ponds using executable lifecycle evidence.",
+  "scripts": {
+    "start": "node src/index.js",
+    "ask": "node src/index.js",
+    "inspect:mcp": "node src/mcp-inventory.js",
+    "dashboard": "node src/server.js",
+    "demo": "node src/demo.js",
+    "check": "node --check src/index.js && node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "@purplesquirrel/robinhood-chain-mcp": "0.1.1",
+    "dotenv": "^16.4.7"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-09-18T20:51:19.582Z",
+  "minimumNetUsd": 1,
+  "sample": true,
+  "ponds": [
+    {
+      "symbol": "msUSD",
+      "route": "Base -> Optimism",
+      "routeClass": "fast-bridge-cycle",
+      "status": "closed",
+      "sizeUsd": 400,
+      "bridge": { "provider": "LayerZero", "expectedSeconds": 180 },
+      "live": {
+        "netUsd": null,
+        "quotedNetUsd": 23.31747398428616,
+        "eligible": false,
+        "quotePositive": true,
+        "simulated": false,
+        "simulationRejected": true,
+        "simulations": {
+          "buy": { "supported": true, "success": true },
+          "bridge": { "supported": true, "success": true },
+          "sell": { "supported": true, "success": false, "error": "execution reverted: TF" }
+        }
+      },
+      "validation": { "decision": "reject", "reason": "destination funded sale simulation reverted" }
+    },
+    {
+      "symbol": "PRIVATE",
+      "route": "withheld",
+      "routeClass": "private-inventory-cycle",
+      "status": "private",
+      "sizeUsd": null,
+      "bridge": { "provider": "withheld", "expectedSeconds": null },
+      "live": {
+        "netUsd": null,
+        "quotedNetUsd": null,
+        "eligible": false,
+        "quotePositive": false,
+        "simulated": false,
+        "simulationRejected": false
+      },
+      "validation": { "decision": "withhold", "reason": "private route omitted from public evidence" }
+    },
+    {
+      "symbol": "HAIR",
+      "route": "Base -> Ethereum",
+      "routeClass": "fast-bridge-cycle",
+      "status": "closed",
+      "sizeUsd": 40,
+      "live": {
+        "netUsd": -0.336459234,
+        "quotedNetUsd": -0.336459234,
+        "eligible": false,
+        "quotePositive": false,
+        "simulated": true,
+        "simulationRejected": false
+      },
+      "validation": { "decision": "reject", "reason": "fully costed net is negative" }
+    }
+  ]
+}
